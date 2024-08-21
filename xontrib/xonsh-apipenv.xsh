@@ -1,7 +1,6 @@
 import os
 import pathlib
 from pipenv.project import Project
-from pipenv.core import do_where
 
 
 class PipenvActivator():

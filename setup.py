@@ -2,17 +2,17 @@ from setuptools import setup
 
 setup(
     name='xontrib-apipenv',
-    version='0.4.0',
-    url='https://github.com/deeuu/xonsh-apipenv',
+    version='0.5.0',
+    url='https://github.com/greg-hellings/xonsh-apipenv',
     license='MIT',
-    author='Dominic Ward',
-    author_email='dom@deeuu.me',
+    author='Greg Hellings',
+    author_email='greg.hellings@gmail.com',
     description='Auto activate a Pipenv virtual environment',
     packages=['xontrib'],
     package_dir={'xontrib': 'xontrib'},
     package_data={'xontrib': ['*.xsh']},
     platforms='any',
-    install_requires=['pipenv>=2018.11.26'],
+    install_requires=['pipenv>=2022'],
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: End Users/Desktop',

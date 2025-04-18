@@ -42,7 +42,7 @@ class PipenvActivator():
 
             self.pipenv_proj_path = pathlib.Path(project.pipfile_location).parent
 
-            vox activate @(venv_name)
+            vox activate @(venv_path)
 
 
 _pa = PipenvActivator()
